@@ -19,21 +19,23 @@
 
 ```
 水下清洁机器人/
-├── Docs/                 
+├── Docs/
 │   ├── PDF/
-│   └── imgs/             
-├── Electronics/          
-│   ├── Firmware/         
-│   ├── imgs/             
-│   └── readme.md         # 电子设计文档
-├── Mechanical/           
-│   ├── CAD/              
-│   ├── imgs/             
-│   └── readme.md         # 机械设计文档
-├── Software/             
-│   ├── SVIn2/            
-│   ├── 水下SLAM/         
-│   └── readme.md         # 软件设计文档
+│   └── imgs/
+├── Electronics/
+│   ├── Firmware/         # 硬件，嵌入式
+│   ├── Firmware/         # 固件，控制
+│   ├── imgs/
+│   └── readme.md
+├── Mechanical/
+│   ├── CAD/              # 机械
+│   ├── imgs/
+│   └── readme.md
+├── Software/
+│   ├── ros2_ws/          # 软件，自主定位
+│   ├── SVIn2/
+│   ├── 水下SLAM/
+│   └── readme.md
 └── readme.md             # 项目总览文档
 ```
 
@@ -48,8 +50,8 @@
 |------|------|
 | 电气系统 | 王盛先、陶军 |
 | 机械设计 | 孙睿泽、韩蕊 |
-| 控制 | 蔡雅萱、谢日升 |
-| 自主定位 | 隋辰曦、孟宇函 |
+| 控制 | 蔡雅萱、孟宇函 |
+| 自主定位 | 隋辰曦、谢日升 |
 
 ## 联系方式
 
