@@ -1,0 +1,20 @@
+{
+  "package_name": "turtlesim_msgs",
+  "output_dir": "/home/tse-yatsing/Underwater_Cleaning_Robot/Software/SeaWashr-ros2-ws/build/turtlesim_msgs/rosidl_generator_type_description/turtlesim_msgs",
+  "idl_tuples": [
+    "/home/tse-yatsing/Underwater_Cleaning_Robot/Software/SeaWashr-ros2-ws/build/turtlesim_msgs/rosidl_adapter/turtlesim_msgs:action/RotateAbsolute.idl",
+    "/home/tse-yatsing/Underwater_Cleaning_Robot/Software/SeaWashr-ros2-ws/build/turtlesim_msgs/rosidl_adapter/turtlesim_msgs:msg/Color.idl",
+    "/home/tse-yatsing/Underwater_Cleaning_Robot/Software/SeaWashr-ros2-ws/build/turtlesim_msgs/rosidl_adapter/turtlesim_msgs:msg/Pose.idl",
+    "/home/tse-yatsing/Underwater_Cleaning_Robot/Software/SeaWashr-ros2-ws/build/turtlesim_msgs/rosidl_adapter/turtlesim_msgs:srv/Kill.idl",
+    "/home/tse-yatsing/Underwater_Cleaning_Robot/Software/SeaWashr-ros2-ws/build/turtlesim_msgs/rosidl_adapter/turtlesim_msgs:srv/SetPen.idl",
+    "/home/tse-yatsing/Underwater_Cleaning_Robot/Software/SeaWashr-ros2-ws/build/turtlesim_msgs/rosidl_adapter/turtlesim_msgs:srv/Spawn.idl",
+    "/home/tse-yatsing/Underwater_Cleaning_Robot/Software/SeaWashr-ros2-ws/build/turtlesim_msgs/rosidl_adapter/turtlesim_msgs:srv/TeleportAbsolute.idl",
+    "/home/tse-yatsing/Underwater_Cleaning_Robot/Software/SeaWashr-ros2-ws/build/turtlesim_msgs/rosidl_adapter/turtlesim_msgs:srv/TeleportRelative.idl"
+  ],
+  "include_paths": [
+    "builtin_interfaces:/opt/ros/kilted/share/builtin_interfaces",
+    "service_msgs:/opt/ros/kilted/share/service_msgs",
+    "action_msgs:/opt/ros/kilted/share/action_msgs",
+    "unique_identifier_msgs:/opt/ros/kilted/share/unique_identifier_msgs"
+  ]
+}
