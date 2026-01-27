@@ -1,0 +1,9 @@
+/home/tse-yatsing/Underwater_Cleaning_Robot/Software/SeaWashr-ros2-ws/build/seaweashr-description/CMakeFiles/uninstall.dir
+/home/tse-yatsing/Underwater_Cleaning_Robot/Software/SeaWashr-ros2-ws/build/seaweashr-description/CMakeFiles/seaweashr-description_uninstall.dir
+/home/tse-yatsing/Underwater_Cleaning_Robot/Software/SeaWashr-ros2-ws/build/seaweashr-description/CMakeFiles/test.dir
+/home/tse-yatsing/Underwater_Cleaning_Robot/Software/SeaWashr-ros2-ws/build/seaweashr-description/CMakeFiles/edit_cache.dir
+/home/tse-yatsing/Underwater_Cleaning_Robot/Software/SeaWashr-ros2-ws/build/seaweashr-description/CMakeFiles/rebuild_cache.dir
+/home/tse-yatsing/Underwater_Cleaning_Robot/Software/SeaWashr-ros2-ws/build/seaweashr-description/CMakeFiles/list_install_components.dir
+/home/tse-yatsing/Underwater_Cleaning_Robot/Software/SeaWashr-ros2-ws/build/seaweashr-description/CMakeFiles/install.dir
+/home/tse-yatsing/Underwater_Cleaning_Robot/Software/SeaWashr-ros2-ws/build/seaweashr-description/CMakeFiles/install/local.dir
+/home/tse-yatsing/Underwater_Cleaning_Robot/Software/SeaWashr-ros2-ws/build/seaweashr-description/CMakeFiles/install/strip.dir

@@ -1,0 +1,4 @@
+source;share/seaweashr-description/local_setup.bash
+source;share/seaweashr-description/local_setup.dsv
+source;share/seaweashr-description/local_setup.sh
+source;share/seaweashr-description/local_setup.zsh

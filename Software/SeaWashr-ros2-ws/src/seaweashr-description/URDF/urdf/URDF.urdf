@@ -4,6 +4,16 @@
      For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
 <robot
   name="URDF">
+  <!-- ✅ 新增：世界坐标系根连杆（无几何，仅作为坐标系参考） -->
+  <link name="world" />
+
+  <!-- ✅ 核心：全局旋转关节，将base_link连接到world，这里的旋转会带动整个机器人翻正 -->
+  <joint name="world_to_base" type="fixed">
+    <parent link="world" />
+    <child link="base_link" />
+    <origin xyz="0 0 0" rpy="-1.5708 0 0" />  <!-- 旋转补偿核心，优先试这个值 -->
+  </joint>
+  <!-- base link -->
   <link
     name="base_link">
     <inertial>
@@ -26,7 +36,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://URDF/meshes/base_link.STL" />
+          filename="file:///home/tse-yatsing/Underwater_Cleaning_Robot/Software/SeaWashr-ros2-ws/src/seaweashr-description/URDF/meshes/base_link.STL" />
       </geometry>
       <material
         name="">
@@ -40,7 +50,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://URDF/meshes/base_link.STL" />
+          filename="file:///home/tse-yatsing/Underwater_Cleaning_Robot/Software/SeaWashr-ros2-ws/src/seaweashr-description/URDF/meshes/base_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -66,7 +76,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://URDF/meshes/leftfrontwheel_Link.STL" />
+          filename="file:///home/tse-yatsing/Underwater_Cleaning_Robot/Software/SeaWashr-ros2-ws/src/seaweashr-description/URDF/meshes/leftfrontwheel_Link.STL" />
       </geometry>
       <material
         name="">
@@ -80,7 +90,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://URDF/meshes/leftfrontwheel_Link.STL" />
+          filename="file:///home/tse-yatsing/Underwater_Cleaning_Robot/Software/SeaWashr-ros2-ws/src/seaweashr-description/URDF/meshes/leftfrontwheel_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -95,7 +105,7 @@
     <child
       link="leftfrontwheel_Link" />
     <axis
-      xyz="0 0 0" />
+      xyz="1 0 0" />
   </joint>
   <link
     name="rightfrontwheel_Link">
@@ -119,7 +129,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://URDF/meshes/rightfrontwheel_Link.STL" />
+          filename="file:///home/tse-yatsing/Underwater_Cleaning_Robot/Software/SeaWashr-ros2-ws/src/seaweashr-description/URDF/meshes/rightfrontwheel_Link.STL" />
       </geometry>
       <material
         name="">
@@ -133,7 +143,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://URDF/meshes/rightfrontwheel_Link.STL" />
+          filename="file:///home/tse-yatsing/Underwater_Cleaning_Robot/Software/SeaWashr-ros2-ws/src/seaweashr-description/URDF/meshes/rightfrontwheel_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -148,7 +158,7 @@
     <child
       link="rightfrontwheel_Link" />
     <axis
-      xyz="0 0 0" />
+      xyz="1 0 0" />
   </joint>
   <link
     name="leftbackwheel_Link">
@@ -172,7 +182,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://URDF/meshes/leftbackwheel_Link.STL" />
+          filename="file:///home/tse-yatsing/Underwater_Cleaning_Robot/Software/SeaWashr-ros2-ws/src/seaweashr-description/URDF/meshes/leftbackwheel_Link.STL" />
       </geometry>
       <material
         name="">
@@ -186,7 +196,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://URDF/meshes/leftbackwheel_Link.STL" />
+          filename="file:///home/tse-yatsing/Underwater_Cleaning_Robot/Software/SeaWashr-ros2-ws/src/seaweashr-description/URDF/meshes/leftbackwheel_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -201,7 +211,7 @@
     <child
       link="leftbackwheel_Link" />
     <axis
-      xyz="0 0 0" />
+      xyz="1 0 0" />
   </joint>
   <link
     name="rightbackwheel_Link">
@@ -225,7 +235,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://URDF/meshes/rightbackwheel_Link.STL" />
+          filename="file:///home/tse-yatsing/Underwater_Cleaning_Robot/Software/SeaWashr-ros2-ws/src/seaweashr-description/URDF/meshes/rightbackwheel_Link.STL" />
       </geometry>
       <material
         name="">
@@ -239,7 +249,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://URDF/meshes/rightbackwheel_Link.STL" />
+          filename="file:///home/tse-yatsing/Underwater_Cleaning_Robot/Software/SeaWashr-ros2-ws/src/seaweashr-description/URDF/meshes/rightbackwheel_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -254,7 +264,7 @@
     <child
       link="rightbackwheel_Link" />
     <axis
-      xyz="0 0 0" />
+      xyz="1 0 0" />
   </joint>
   <link
     name="leftmotor_Link">
@@ -278,7 +288,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://URDF/meshes/leftmotor_Link.STL" />
+          filename="file:///home/tse-yatsing/Underwater_Cleaning_Robot/Software/SeaWashr-ros2-ws/src/seaweashr-description/URDF/meshes/leftmotor_Link.STL" />
       </geometry>
       <material
         name="">
@@ -292,7 +302,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://URDF/meshes/leftmotor_Link.STL" />
+          filename="file:///home/tse-yatsing/Underwater_Cleaning_Robot/Software/SeaWashr-ros2-ws/src/seaweashr-description/URDF/meshes/leftmotor_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -307,7 +317,7 @@
     <child
       link="leftmotor_Link" />
     <axis
-      xyz="0 0 0" />
+      xyz="0 0 1" />
   </joint>
   <link
     name="rightmotor_Link">
@@ -331,7 +341,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://URDF/meshes/rightmotor_Link.STL" />
+          filename="file:///home/tse-yatsing/Underwater_Cleaning_Robot/Software/SeaWashr-ros2-ws/src/seaweashr-description/URDF/meshes/rightmotor_Link.STL" />
       </geometry>
       <material
         name="">
@@ -345,7 +355,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://URDF/meshes/rightmotor_Link.STL" />
+          filename="file:///home/tse-yatsing/Underwater_Cleaning_Robot/Software/SeaWashr-ros2-ws/src/seaweashr-description/URDF/meshes/rightmotor_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -360,6 +370,6 @@
     <child
       link="rightmotor_Link" />
     <axis
-      xyz="0 0 0" />
+      xyz="0 0 1" />
   </joint>
 </robot>
