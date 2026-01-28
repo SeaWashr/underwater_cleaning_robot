@@ -1,5 +1,6 @@
 /home/tse-yatsing/Underwater_Cleaning_Robot/Software/SeaWashr-ros2-ws/install/seaweashr-description/share/seaweashr-description/launch/display_seawashr.launch.py
 /home/tse-yatsing/Underwater_Cleaning_Robot/Software/SeaWashr-ros2-ws/install/seaweashr-description/share/seaweashr-description/launch/__pycache__/display_seawashr.launch.cpython-312.pyc
+/home/tse-yatsing/Underwater_Cleaning_Robot/Software/SeaWashr-ros2-ws/install/seaweashr-description/share/seaweashr-description/launch/__pycache__/gz_server.launch.cpython-312.pyc
 /home/tse-yatsing/Underwater_Cleaning_Robot/Software/SeaWashr-ros2-ws/install/seaweashr-description/share/seaweashr-description/URDF/export.log
 /home/tse-yatsing/Underwater_Cleaning_Robot/Software/SeaWashr-ros2-ws/install/seaweashr-description/share/seaweashr-description/URDF/urdf/URDF.urdf
 /home/tse-yatsing/Underwater_Cleaning_Robot/Software/SeaWashr-ros2-ws/install/seaweashr-description/share/seaweashr-description/URDF/urdf/URDF.csv

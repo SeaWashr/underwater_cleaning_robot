@@ -37,3 +37,9 @@ env/
 # 文档中的临时文件
 *.tmp.pdf
 *.tmp.pptx
+
+# SeaWashr-ros2-ws
+.Software/SeaWashr-ros2-ws/.vscode
+.Software/SeaWashr-ros2-ws/build/
+.Software/SeaWashr-ros2-ws/install/
+.Software/SeaWashr-ros2-ws/log/
