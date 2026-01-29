@@ -1,4 +1,4 @@
 # seaweashr-description URDF包
-./Software/SeaWashr-ros2-ws/build #编译目录
-./Software/SeaWashr-ros2-ws/install #安装目录
-./Software/SeaWashr-ros2-ws/log #日志目录
+Software/SeaWashr-ros2-ws/build #编译目录
+Software/SeaWashr-ros2-ws/install #安装目录
+Software/SeaWashr-ros2-ws/log #日志目录
