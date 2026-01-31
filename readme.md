@@ -5,6 +5,7 @@
 ## 项目概述
 
 本项目旨在开发一款基于负压吸附技术的无线自主轮船清洁机器人，参考了现有负压式泳池机器人的设计理念，并针对轮船清洁的特殊需求进行了优化和创新。
+![](Docs/imgs/_v2_2026-Jan-31_05-20-13PM-000_CustomizedView29202513819_png.png)
 
 ### 主要功能与目标
 - 实现对轮船船体表面的自主清洁
@@ -20,23 +21,17 @@
 ```
 水下清洁机器人/
 ├── Docs/
-│   ├── PDF/
-│   └── imgs/
-├── Electronics/
-│   ├── Firmware/         # 硬件，嵌入式
-│   ├── Firmware/         # 固件，控制
-│   ├── imgs/
+├── Electronics/          # 电子
+│   ├── Hardware/
+│   ├── Firmware/
 │   └── readme.md
-├── Mechanical/
-│   ├── CAD/              # 机械
-│   ├── imgs/
+├── Mechanical/           # 机械
+│   ├── CAD/
 │   └── readme.md
-├── Software/
-│   ├── ros2_ws/          # 软件，自主定位
-│   ├── SVIn2/
-│   ├── 水下SLAM/
+├── Software/             # 软件
+│   ├── seawashr_ros2_ws/
 │   └── readme.md
-└── readme.md             # 项目总览文档
+└── readme.md             # 项目说明文档
 ```
 
 ## 项目进展
