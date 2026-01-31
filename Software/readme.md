@@ -12,8 +12,7 @@ Software/
 ```
 
 ## 2.子仓库链接
-- `seawashr-ros2-ws`
-https://github.com/SeaWashr/seawashr_ros2_ws.git
+- `seawashr-ros2-ws`https://github.com/SeaWashr/seawashr_ros2_ws.git
 - `hadal_vision`https://github.com/SeaWashr/hadal_vision.git
 
 ## 3.克隆教程
