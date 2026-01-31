@@ -1,6 +1,6 @@
 # Software
 
-## Software结构
+## 1.Software目录结构
 ```
 Software/
 ├── seawashr-ros2-ws/ # seawashr ros2 工作空间
@@ -10,14 +10,14 @@ Software/
 │
 └── readme.md         # 说明文档
 ```
-## 子仓库链接
+## 2.子仓库链接
 
 - `seawashr-ros2-ws`
 https://github.com/SeaWashr/seawashr-ros2-ws.git
 
 - `hadal_vision`https://github.com/SeaWashr/hadal_vision.git
 
-## 克隆教程
+## 3.克隆教程
 1. **选择位置**：打开终端，`cd`到你的目标文件夹`目标文件夹`
 ```
 cd 目标文件夹的目录/目标文件夹
