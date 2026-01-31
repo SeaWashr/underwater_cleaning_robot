@@ -3,7 +3,7 @@
 ## 1.Software目录结构
 ```
 Software/
-├── seawashr-ros2-ws/ # seawashr ros2 工作空间
+├── seawashr_ros2_ws/ # seawashr ros2 工作空间
 │   ├── src/          # 源码
 │
 ├── hadal_vision/     # 图像增强+目标识别
@@ -13,7 +13,7 @@ Software/
 
 ## 2.子仓库链接
 - `seawashr-ros2-ws`
-https://github.com/SeaWashr/seawashr-ros2-ws.git
+https://github.com/SeaWashr/seawashr_ros2_ws.git
 - `hadal_vision`https://github.com/SeaWashr/hadal_vision.git
 
 ## 3.克隆教程
